@@ -1,0 +1,32 @@
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.paraHome1, .paraHome2 {
+	width: 100%; 
+	line-height: 30px;
+	margin: 10px 0px 0px 0px;
+}
+
+.paraHome1 {
+	margin-right: 50px;
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+h2 {
+	margin: 30px 0px 0px 28px;
+}
+
+ul {
+	@extend .paraHome1;
+	margin-left: 90px;
+}

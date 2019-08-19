@@ -1,0 +1,25 @@
+nav {
+	padding: 3*$padding;
+	background: #D7D7D9;
+	display: none;
+	z-index: 3; // overlaying
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	float: right;
+	ul {
+		li {
+			padding: $padding;
+			margin: $margin;
+			a {
+				color: $fontcolor;
+				margin: $margin;
+			}
+		}
+	}
+}
+
+.active {
+	display: block;
+	float: right;
+}
