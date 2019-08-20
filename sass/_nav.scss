@@ -1,25 +1,32 @@
 nav {
-	padding: 3*$padding;
 	background: #D7D7D9;
-	display: none;
 	z-index: 3; // overlaying
 	position: fixed;
 	top: 0px;
+	right: 0px;
+	text-align: center;
 	left: 0px;
-	float: right;
+	height: 990px;
+	display: none;
 	ul {
 		li {
-			padding: $padding;
-			margin: $margin;
+			margin: auto;
+			float: left;
 			a {
 				color: $fontcolor;
-				margin: $margin;
+				font-size: 35px;
+				line-height: 125px;
+				float: right;
 			}
 		}
 	}
 }
 
 .active {
+	margin: 0;
+	height: 1035px;
 	display: block;
-	float: right;
+	a {
+		padding-right: 300px;
+	}
 }

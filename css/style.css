@@ -7,29 +7,38 @@
   text-decoration: none; }
 
 nav {
-  padding: 75px;
   background: #D7D7D9;
-  display: none;
   z-index: 3;
   position: fixed;
   top: 0px;
+  right: 0px;
+  text-align: center;
   left: 0px;
-  float: right; }
+  height: 990px;
+  display: none; }
   nav ul li {
-    padding: 25px;
-    margin: 30px; }
+    margin: auto;
+    float: left; }
     nav ul li a {
       color: #8C3C2A;
-      margin: 30px; }
+      font-size: 35px;
+      line-height: 125px;
+      float: right; }
 
 .active {
-  display: block;
-  float: right; }
+  margin: 0;
+  height: 1035px;
+  display: block; }
+  .active a {
+    padding-right: 300px; }
 
 .logo {
   margin: 2%;
   padding-left: 45px;
-  display: block; }
+  display: block;
+  position: absolute;
+  top: 450px;
+  left: 450px; }
 
 .bblogo {
   max-width: 35vw; }
@@ -40,7 +49,8 @@ nav {
   float: right; }
 
 .far {
-  float: right; }
+  float: right;
+  font-size: 50px; }
 
 .row:after {
   content: "";
@@ -48,12 +58,20 @@ nav {
   clear: both; }
 
 .paraHome1, ul, .paraHome2 {
-  width: 100%;
-  line-height: 30px;
-  margin: 10px 0px 0px 0px; }
+  width: 70%;
+  line-height: 50px;
+  font-size: 25px;
+  color: #8C3C2A;
+  margin: 10px 0px 0px 0px;
+  z-index: 1000;
+  position: absolute;
+  top: 1000px;
+  left: 1020px; }
 
 .paraHome1, ul {
-  margin-right: 50px; }
+  margin-right: 10px;
+  top: 1000px;
+  left: 410px; }
 
 .clearfix {
   content: "";
