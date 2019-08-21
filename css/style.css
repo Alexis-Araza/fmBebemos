@@ -1,5 +1,5 @@
 * {
-  margin: 20px;
+  margin: 0px;
   padding: 0;
   font-family: 'Montserrat',sans-serif;
   box-sizing: border-box;
@@ -8,70 +8,63 @@
 
 nav {
   background: #D7D7D9;
-  z-index: 3;
+  z-index: 10;
   position: fixed;
   top: 0px;
-  right: 0px;
   text-align: center;
-  left: 0px;
-  height: 990px;
-  display: none; }
+  display: none;
+  width: 100%; }
   nav ul li {
-    margin: auto;
-    float: left; }
+    margin: auto; }
     nav ul li a {
-      color: #8C3C2A;
       font-size: 35px;
-      line-height: 125px;
-      float: right; }
+      line-height: 80px;
+      text-align: center; }
+
+header {
+  height: 50px;
+  background: #D7D7D9; }
 
 .active {
   margin: 0;
-  height: 1035px;
+  height: 1020px;
   display: block; }
   .active a {
-    padding-right: 300px; }
-
-.logo {
-  margin: 2%;
-  padding-left: 45px;
-  display: block;
-  position: absolute;
-  top: 450px;
-  left: 450px; }
+    margin: 50px;
+    color: #8C3C2A;
+    display: block; }
 
 .bblogo {
-  max-width: 35vw; }
+  max-width: 35vw;
+  position: absolute;
+  z-index: 3;
+  top: 100px;
+  left: 150px; }
+
+.homeImg {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: auto; }
 
 .fas {
   font-size: 40px;
-  margin-top: 30px;
+  margin: 5px;
   float: right; }
 
-.far {
-  float: right;
-  font-size: 50px; }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.paraHome1, ul, .paraHome2 {
+.paraHome1, .paraHome2 {
   width: 70%;
-  line-height: 50px;
-  font-size: 25px;
+  line-height: 25px;
+  font-size: 10px;
   color: #8C3C2A;
-  margin: 10px 0px 0px 0px;
-  z-index: 1000;
+  z-index: 3;
   position: absolute;
-  top: 1000px;
-  left: 1020px; }
+  top: 250px;
+  left: 180px; }
 
-.paraHome1, ul {
-  margin-right: 10px;
-  top: 1000px;
-  left: 410px; }
+.paraHome1 {
+  margin-left: -20px;
+  left: 1px; }
 
 .clearfix {
   content: "";
@@ -79,10 +72,8 @@ nav {
   display: table; }
 
 h2 {
-  margin: 30px 0px 0px 28px; }
-
-ul {
-  margin-left: 90px; }
+  margin: 0;
+  padding: 0; }
 
 body {
   background-color: #8C1B2F; }

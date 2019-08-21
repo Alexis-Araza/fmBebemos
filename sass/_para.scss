@@ -1,28 +1,18 @@
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-
 .paraHome1, .paraHome2 {
 	width: 70%; 
-	line-height: 50px;
-	font-size: 25px;
+	line-height: 25px;
+	font-size: 10px;
 	color: $fontcolor;
-	margin: 10px 0px 0px 0px;
-	z-index: 1000;
+	z-index: 3;
 	position: absolute;
-	top: 1000px;
-	left: 1020px;
+	top: 250px;
+	left: 180px;
 
 }
 
 .paraHome1 {
-	margin-right: 10px;
-	top: 1000px;
-	left: 410px;
-
+	margin-left: -20px;
+	left: 1px;
 }
 
 .clearfix {
@@ -32,10 +22,6 @@
 }
 
 h2 {
-	margin: 30px 0px 0px 28px;
-}
-
-ul {
-	@extend .paraHome1;
-	margin-left: 90px;
+	margin: 0;
+	padding: 0;
 }

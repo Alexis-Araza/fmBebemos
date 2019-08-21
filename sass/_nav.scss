@@ -1,32 +1,35 @@
 nav {
 	background: #D7D7D9;
-	z-index: 3; // overlaying
+	z-index: 10; // overlaying
 	position: fixed;
 	top: 0px;
-	right: 0px;
 	text-align: center;
-	left: 0px;
-	height: 990px;
 	display: none;
+	width: 100%;
 	ul {
 		li {
 			margin: auto;
-			float: left;
 			a {
-				color: $fontcolor;
 				font-size: 35px;
-				line-height: 125px;
-				float: right;
+				line-height: 80px;
+				text-align: center;
 			}
 		}
 	}
 }
 
+header {
+	height: 50px;
+	background: #D7D7D9;
+}
+
 .active {
 	margin: 0;
-	height: 1035px;
+	height: 1020px;
 	display: block;
 	a {
-		padding-right: 300px;
+		margin: 50px;
+		color: $fontcolor;
+		display: block;
 	}
 }

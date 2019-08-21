@@ -1,12 +1,11 @@
 console.log('my script is working');
 
-
 $(document).ready(function(){
-  $('#menu').click(function(){
-    $('nav').toggleClass('active')
+  $('.fas').click(function(){
+    $('nav').toggleClass('active');
   })
 
-  $('#close').click(function(){
+  $('close').click(function(){
     $('nav').hide();
   })
 });
