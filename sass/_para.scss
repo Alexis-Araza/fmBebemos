@@ -1,13 +1,13 @@
 .paraHome1, .paraHome2 {
 	width: 70%; 
 	line-height: 25px;
-	font-size: 10px;
+	font-size: 2.5vw;
 	color: $fontcolor;
 	z-index: 3;
 	position: absolute;
-	top: 250px;
-	left: 180px;
-
+	top: 170px;
+	left: 110px;
+	padding-left: 35px;
 }
 
 .paraHome1 {

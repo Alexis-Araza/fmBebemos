@@ -7,7 +7,7 @@
   text-decoration: none; }
 
 nav {
-  background: #D7D7D9;
+  background: #590303;
   z-index: 10;
   position: fixed;
   top: 0px;
@@ -18,12 +18,12 @@ nav {
     margin: auto; }
     nav ul li a {
       font-size: 35px;
-      line-height: 80px;
+      line-height: 40px;
       text-align: center; }
 
 header {
   height: 50px;
-  background: #D7D7D9; }
+  background: #8C1B2F; }
 
 .active {
   margin: 0;
@@ -31,15 +31,15 @@ header {
   display: block; }
   .active a {
     margin: 50px;
-    color: #8C3C2A;
+    color: #F28705;
     display: block; }
 
 .bblogo {
-  max-width: 35vw;
+  max-width: 55vw;
   position: absolute;
   z-index: 3;
-  top: 100px;
-  left: 150px; }
+  top: 90px;
+  left: 85px; }
 
 .homeImg {
   position: absolute;
@@ -50,17 +50,19 @@ header {
 .fas {
   font-size: 40px;
   margin: 5px;
-  float: right; }
+  float: right;
+  color: #F20505; }
 
 .paraHome1, .paraHome2 {
   width: 70%;
   line-height: 25px;
-  font-size: 10px;
+  font-size: 2.5vw;
   color: #8C3C2A;
   z-index: 3;
   position: absolute;
-  top: 250px;
-  left: 180px; }
+  top: 170px;
+  left: 110px;
+  padding-left: 35px; }
 
 .paraHome1 {
   margin-left: -20px;

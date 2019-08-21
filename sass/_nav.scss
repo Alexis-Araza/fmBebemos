@@ -1,5 +1,5 @@
 nav {
-	background: #D7D7D9;
+	background: #590303;
 	z-index: 10; // overlaying
 	position: fixed;
 	top: 0px;
@@ -11,7 +11,7 @@ nav {
 			margin: auto;
 			a {
 				font-size: 35px;
-				line-height: 80px;
+				line-height: 40px;
 				text-align: center;
 			}
 		}
@@ -20,7 +20,7 @@ nav {
 
 header {
 	height: 50px;
-	background: #D7D7D9;
+	background: $backcolor;
 }
 
 .active {
@@ -29,7 +29,7 @@ header {
 	display: block;
 	a {
 		margin: 50px;
-		color: $fontcolor;
+		color: #F28705;
 		display: block;
 	}
 }
