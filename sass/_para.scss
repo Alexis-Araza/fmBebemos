@@ -15,6 +15,13 @@
 	left: 1px;
 }
 
+.paraSec {
+	background-color: $screen;
+	content: '';
+	opacity: 0.5;
+	z-index: 1;
+}
+
 .paraAbout {
 	margin: 275px 20px 20px 20px;
 	width: 90%;
@@ -31,6 +38,7 @@
 	display: block;
 	font-size: 3.5vw;
 	position: absolute;
+	// line-height: 30px; 
 }
 
 .clearfix {
