@@ -8,20 +8,20 @@
 	max-width: 55vw;
 	position: absolute;
 	z-index: 3;
-	top: 90px;
+	top: 150px;
 	left: 85px;
 }
 
-.image_full {
-	display: block;
-}
-
-.image_mobile {
+#image_full {
 	display: none;
 }
 
+#image_mobile {
+	display: block;
+}
+
 .homeImg {
-	max-height: 37.5vh;
+	width: 1905px;
 }
 
 .homeMobile {

@@ -1,9 +1,12 @@
-@media only screen and (max-width: 300px) {
-  .image_full {
-    display: none;
+@media only screen and (min-width: 600px) {
+  #image_full {
+    display: block;
   }
 
-  .image_mobile {
-  	display: block;
+  #image_mobile {
+  	display: none;
+  }
+  .paraHome1, .paraHome2 {
+  	width: 100%;
   }
 }

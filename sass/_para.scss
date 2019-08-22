@@ -1,26 +1,33 @@
-.paraHome1, .paraHome2 {
-	width: 70%; 
-	line-height: 25px;
-	font-size: 2.9vw;
+ .paraHome2 {
+	width: 80%; 
+	line-height: 35px;
+	font-size: 5vw;
 	color: $fontcolor;
-	z-index: 3;
 	position: absolute;
-	top: 170px;
-	left: 110px;
-	padding-left: 35px;
+	top: 270px;
+	left: 35px;
+	float: left;
+	margin-top: 150px;
 }
 
 .paraHome1 {
-	margin-left: -20px;
+	width: 80%; 
+	line-height: 35px;
+	font-size: 5vw;
+	color: $fontcolor;
+	position: absolute;
+	top: 250px;
 	left: 1px;
+	float: left;
+	margin-left: 37px;
 }
 
-.paraSec {
-	background-color: $screen;
-	content: '';
-	opacity: 0.5;
-	z-index: 1;
-}
+// .paraSec {
+// 	background-color: $screen;
+// 	content: '';
+// 	// opacity: 0.5;
+// 	z-index: 1;
+// }
 
 .paraAbout {
 	margin: 20px 20px 20px 20px;
