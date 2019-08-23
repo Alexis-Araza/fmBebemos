@@ -82,6 +82,16 @@ header {
   float: left;
   margin-left: 37px; }
 
+.paraSec {
+  background-color: #730202;
+  opacity: 0.7;
+  position: absolute;
+  z-index: 0;
+  height: 450px;
+  width: 300px;
+  top: 130px;
+  left: 38px; }
+
 .paraAbout {
   margin: 20px 20px 20px 20px;
   width: 90%;
@@ -105,7 +115,8 @@ header {
 
 h2 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #F4AA4E; }
 
 @media only screen and (min-width: 600px) {
   #image_full {
